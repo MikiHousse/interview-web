@@ -1,16 +1,16 @@
-import App from './app/App';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import App from './app/App'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 
-const container = document.getElementById('root');
+const container = document.getElementById('root')
 
 if (!container) {
-	throw new Error('Root is not finds');
+  throw new Error('Root is not finds')
 }
 
-const root = createRoot(container);
+const root = createRoot(container)
 root.render(
-	<BrowserRouter>
-		<App />
-	</BrowserRouter>,
-);
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+)

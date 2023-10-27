@@ -4,7 +4,13 @@ module.exports = {
 		extend: {},
 	},
 	variants: {
-		extend: {},
+		extend: {
+			colors: {
+				layoutBg: '#131313',
+				navBg: '#202020',
+				navText: '#848484',
+			},
+		},
 	},
 	plugins: [],
 };
